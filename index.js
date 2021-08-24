@@ -43,6 +43,11 @@ const myShellScript = exec('bash script.sh')
     },4000);
   });
 
+  app.post('/', (req, res) => {
+    const myShellScript2 = exec('bash recuperador.sh')
+
+});
+
   function convertData(){
     var server = [];
     for (const i in answer ) {
