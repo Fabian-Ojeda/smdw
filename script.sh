@@ -1,5 +1,5 @@
 #!/bin/bash
-declare -r SERVER_HOST_IP=('localhost' '142.250.64.142')
+declare -r SERVER_HOST_IP=('192.168.0.118' '142.250.64.142')
 
 while :
 do
